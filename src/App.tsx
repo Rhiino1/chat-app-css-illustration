@@ -12,19 +12,20 @@ import dog1 from "@/assets/images/dog-image-1.jpg";
 import dog2 from "@/assets/images/dog-image-2.jpg";
 import dog3 from "@/assets/images/dog-image-3.jpg";
 
-import design from "@/chat-app-css-illustration-master/design/mobile-design.jpg";
+import design from "@/chat-app-css-illustration-master/design/desktop-design.jpg";
 
 function App() {
   return (
     <>
-      <main className="relative flex flex-col items-center justify-between w-full h-screen bg-light-grayish-violet">
+      <main className="relative flex flex-col items-center justify-between w-full h-screen bg-white">
         {/* <img src={design} alt="" className="absolute top-0 left-0 opacity-50" /> */}
         <div className="absolute top-0 xl:-left-[85px] xl:h-[700px] -left-[310px] w-[505px] h-[505px] rounded-b-full bg-gradient-to-tr from-light-violet to-light-magenta"></div>
-        <div className="z-10 flex flex-col items-center w-full h-full py-[64px] px-8 gap-14">
+        <div className="absolute bottom-0 xl:-right-[185px] xl:h-[700px] xl:block hidden -right-[310px] w-[505px] h-[505px] rounded-t-full bg-light-grayish-violet"></div>
+        <div className="z-10 flex flex-col xl:flex-row xl:justify-center xl:pl-[364px] xl:pr-[250px] xl:gap-[125px] items-center w-full h-full py-[64px] px-8 gap-14 drop-shadow-2xl">
           <section className="w-[247px] h-[505px] rounded-[30px] p-[10px] px-[10px] bg-white">
             <section className="w-full h-full rounded-[20px]">
               <div className="flex flex-col items-center justify-start bg-light-grayish-violet rounded-[20px] pb-[8px]">
-                <section className="flex items-center justify-between w-full h-[67px] rounded-t-[20px] rounded-b-[5px] relative pt-[19px] px-[10px] bg-gradient-to-tr from-light-violet to-light-magenta">
+                <section className="flex items-center justify-between w-full h-[67px] rounded-t-[20px] rounded-b-[5px] relative pt-[19px] px-[10px] bg-gradient-to-r from-light-violet to-light-magenta">
                   <div className="absolute top-0 w-[130px] h-[19px] -translate-x-1/2 left-1/2 bg-white rounded-b-[13px]"></div>
                   <button>
                     <BsChevronCompactLeft className="text-white" />
@@ -83,7 +84,7 @@ function App() {
                       shall I take her out for?
                     </p>
                   </div>
-                  <div className="w-[73%] rounded-r-xl rounded-tl-lg rounded-bl-sm flex items-center gap-2 py-[7px] px-[7px] text-[8px] font-rubik bg-gradient-to-tr from-light-violet to-light-magenta">
+                  <div className="w-[73%] rounded-r-xl rounded-tl-lg rounded-bl-sm flex items-center gap-2 py-[7px] px-[7px] text-[8px] font-rubik bg-gradient-to-r from-light-magenta to-light-violet">
                     <BsCircle className="w-3 h-3 cursor-pointer text-grayish-blue">
                       <input type="checkbox" className="sr-only" />
                     </BsCircle>
@@ -92,7 +93,7 @@ function App() {
                       $29
                     </h1>
                   </div>
-                  <div className="w-[73%] rounded-r-xl rounded-tl-lg rounded-bl-sm flex items-center gap-2 py-[7px] px-[7px] text-[8px] font-rubik bg-gradient-to-tr from-light-violet to-light-magenta">
+                  <div className="w-[73%] rounded-r-xl rounded-tl-lg rounded-bl-sm flex items-center gap-2 py-[7px] px-[7px] text-[8px] font-rubik bg-gradient-to-r from-light-magenta to-light-violet">
                     <BsCircle className="w-3 h-3 cursor-pointer text-grayish-blue">
                       <input type="checkbox" className="sr-only" />
                     </BsCircle>
@@ -120,11 +121,11 @@ function App() {
               </div>
             </section>
           </section>
-          <section className="flex flex-col items-center justify-center w-full gap-5 text-center font-rubik">
-            <h1 className="text-[40px] font-bold text-very-dark-violet -tracking-[0.8px]">
+          <section className="xl:-mt-[15px] xl:gap-[18px] xl:justify-start flex flex-col items-center justify-center w-full gap-5 text-center xl:w-auto xl:items-start xl:text-left font-rubik">
+            <h1 className="text-[40px] font-bold text-very-dark-violet -tracking-[0.8px] ">
               Simple booking
             </h1>
-            <p className="leading-[27.5px] text-grayish-blue">
+            <p className="leading-[27.5px] text-grayish-blue font-medium">
               Stay in touch with our dog walkers through the chat interface.
               This makes it easy to discuss arrangements and make bookings. Once
               the walk has been completed you can rate your walker and book
