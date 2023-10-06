@@ -4,7 +4,6 @@ import {
   BsThreeDotsVertical,
   BsChevronCompactLeft,
   BsCircle,
-  BsChevronRight,
 } from "react-icons/bs";
 import { BiSolidChevronRightCircle } from "react-icons/bi";
 import avatar from "@/assets/images/avatar.jpg";
@@ -12,13 +11,11 @@ import dog1 from "@/assets/images/dog-image-1.jpg";
 import dog2 from "@/assets/images/dog-image-2.jpg";
 import dog3 from "@/assets/images/dog-image-3.jpg";
 
-import design from "@/chat-app-css-illustration-master/design/desktop-design.jpg";
 
 function App() {
   return (
     <>
       <main className="relative flex flex-col items-center justify-between w-full h-screen bg-white">
-        {/* <img src={design} alt="" className="absolute top-0 left-0 opacity-50" /> */}
         <div className="absolute top-0 xl:-left-[85px] xl:h-[700px] -left-[310px] w-[505px] h-[505px] rounded-b-full bg-gradient-to-tr from-light-violet to-light-magenta"></div>
         <div className="absolute bottom-0 xl:-right-[185px] xl:h-[700px] xl:block hidden -right-[310px] w-[505px] h-[505px] rounded-t-full bg-light-grayish-violet"></div>
         <div className="z-10 flex flex-col xl:flex-row xl:justify-center xl:pl-[364px] xl:pr-[250px] xl:gap-[125px] items-center w-full h-full py-[64px] px-8 gap-14 drop-shadow-2xl">
