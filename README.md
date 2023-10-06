@@ -1,29 +1,65 @@
-# React + TypeScript + Tailwindcss + Vite
+# Frontend Mentor - Chat app CSS illustration solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Chat app CSS illustration challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Styles under Tailwindcss.
+## Table of contents
 
-Currently, two official plugins are available:
+- [Frontend Mentor - Chat app CSS illustration solution](#frontend-mentor---chat-app-css-illustration-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+### The challenge
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Users should be able to:
 
-- Configure the top-level `parserOptions` property like this:
+- View the optimal layout for the component depending on their device's screen size
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### Screenshot
+
+![](./src/assets/images/screenshot.png)
+
+### Links
+
+- Solution URL: [here](https://www.frontendmentor.io/solutions/chat-app-css-illustration-react-tailwindcss-q9o_Ht3CVw)
+- Live Site URL: [here](https://rhiino1.github.io/chat-app-css-illustration/)
+
+## My process
+
+Sames as always, mobile first workflow, some react, some tailwind.
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Tailwindcss](https://tailwindcss.com/) - CSS library
+
+### What I learned
+
+Tailwind gradients are so cool!
+
+```html
+<div class="bg-gradient-to-tr from-light-violet to-light-magenta"></div>
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Useful resources
+
+- [Tailwindcss Documentation](https://tailwindcss.com/docs) - There is all the information and knowledge you need to start learning Tailwindcss. 
+
+## Author
+
+- Github - [Cesar SC](https://github.com/Rhiino1)
+- Frontend Mentor - [@Rhiino1](https://www.frontendmentor.io/profile/Rhiino1)
+- Twitter - [@Rhiino_1](https://www.twitter.com/Rhiino_1)
